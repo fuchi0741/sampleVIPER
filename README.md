@@ -61,6 +61,8 @@ DIする
 Viewへの表示を指示
 
 #### presenter → Router
+一番最初の画面を生成する
+→ DIをする必要がある
 画面遷移を依頼する
 
 #### presenter → Interactor
@@ -73,3 +75,5 @@ Viewへの表示を指示
 
 ##### 学習リソース
 https://www.youtube.com/watch?v=ieqNIySokxI
+https://qiita.com/REON/items/bf332ff6dbc63ee4e063
+iOSアプリ設計パターン
