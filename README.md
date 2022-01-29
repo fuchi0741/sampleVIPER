@@ -16,15 +16,20 @@ P プレゼンタ
 E エンティティ
 R ルータ
 
+UIKitのimportが推奨非推奨のところが両方ある
+
 #### View
 見た目とユーザの操作
 MVCでいうViewとController？
 画面変更の指示はプレゼンターからくる
+UKKit使用OK
 
 #### Interactor
 ビジネスロジック(CRUD)
 
 - 自分がやったビジネスロジックがどんなUIになってユーザに伝えるかは不明
+- API通信など
+- UIKit禁止
 
 #### Presenter
 ビューからのリクエストに答える
@@ -38,6 +43,8 @@ MVCでいうControllerに書いていた処理(ViewとModelの司会進行みた
 #### Entity
 データそのものを示す
 ロジックは持たない
+
+UIKitはimportしない
 
 #### Router
 画面遷移を担当
