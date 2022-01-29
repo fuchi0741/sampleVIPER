@@ -73,7 +73,17 @@ Viewへの表示を指示
 #### Interactor → Entity
 データを生成したり削除したり
 
+#### そもそもDIとは
+クラスAを使用するためにクラスBをインスタンス化する必要がある(密結合)
+DIをする = クラスBがなくてもクラスAができるようにする
+どうやって？
+①クラスBのメソッド、プロパティをプロトコルを準備
+②クラスAにプロトコルが型になっている変数を用意
+
 ##### 学習リソース
 https://www.youtube.com/watch?v=ieqNIySokxI
 https://qiita.com/REON/items/bf332ff6dbc63ee4e063
 iOSアプリ設計パターン
+
+DI
+https://qiita.com/eKushida/items/78a58559aedd851d105c
