@@ -31,6 +31,8 @@ MVCでいうViewとController？
 必要であればインタラクタにリクエストをする
 ルータにもリクエストをする
 
+UIKitは使用しない！！！！
+
 MVCでいうControllerに書いていた処理(ViewとModelの司会進行みたいなイメージ)
 
 #### Entity
